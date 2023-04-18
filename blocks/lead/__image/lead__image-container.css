@@ -1,0 +1,9 @@
+.lead__image-container {
+    margin: auto;
+    max-width: 984px;
+}
+@media screen and (max-width: 1025px) {
+    .lead__image-container {
+        max-width: 928px;
+    }
+}
