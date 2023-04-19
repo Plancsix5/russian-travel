@@ -1,7 +1,27 @@
 .header {
-    padding-top: 28px;
-    display: flex;
-    justify-content: space-between;
-    margin: 0 auto;
-    max-width: 92.5%;
+  padding-top: 28px;
+  display: flex;
+  justify-content: space-between;
+  margin: 0 auto;
+  max-width: 92.5%;
+}
+@media screen and (max-width: 1025px) {
+  .header {
+    max-width: 90.625%;
   }
+}
+@media screen and (max-width: 769px) {
+  .header {
+    max-width: 93.75%;
+  }
+}
+@media screen and (max-width: 721px) {
+  .header {
+    padding-top: 16px;
+  }
+}
+@media screen and (max-width: 321px) {
+  .header {
+    max-width: 90.625%;
+  }
+}
